@@ -1,0 +1,5 @@
+- Check Jenkins latest version first and change the url in Dockerfile according to that.
+- "docker-compose up" use this first time. get the Jenkins password which will be shown in terminal for the first time.
+- After setting up jenkins after putting your own username and password, use "docker-compose down".
+- Use "docker-compose up -d" this command will run Dockerfile and start up jenkins on 8080 port. whenever you run your machine, jenkins will be up automatically everytime.
+- You can change volumes, ports in docker-compose yaml file according to your need.
